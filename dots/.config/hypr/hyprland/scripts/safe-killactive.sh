@@ -7,4 +7,4 @@ if printf '%s\n' "$active" | grep -Eiq 'class:.*(minecraft|prismlauncher)|title:
   exit 0
 fi
 
-hyprctl dispatch killactive
+hyprctl dispatch 'hl.dsp.window.close()'
