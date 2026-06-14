@@ -1,7 +1,7 @@
 # PuppyDOT
 
 PuppyDOT is my personal Arch/EndeavourOS desktop build for Hyprland and Noctalia.
-It is meant to be installed once, feel polished immediately, and stay easy to hand to someone new.
+This is mostly for Akaylee since i wanted her to have my dotfiles so ye it is recommended to use endeavourOS idk how it works on arch prob fine but ye.
 
 ## What makes it mine
 
