@@ -1,17 +1,17 @@
 # PuppyDOT
 
-PuppyDOT is my personal Hyprland rice for Arch-based installs, with a Noctalia-first desktop flow and a guided first-login setup assistant.
+PuppyDOT is my personal Arch/EndeavourOS desktop build for Hyprland and Noctalia.
+It is meant to be installed once, feel polished immediately, and stay easy to hand to someone new.
 
-## What it includes
+## What makes it mine
 
-- Hyprland install and config
-- Noctalia shell setup and polish
-- A searchable keybind cheatsheet
-- Curated app preset for a fresh desktop
-- Browser selection, mirrors, and driver guidance
-- A setup assistant that walks through the common first steps
+- Noctalia-first desktop flow
+- A first-login setup assistant with colored onboarding
+- One-click `Ari desktop` preset for the browser and common apps
+- A live, searchable Hyprland cheatsheet
+- Default-browser, mirrors, and GPU guidance built into the flow
 
-## Install
+## Quick Start
 
 On a fresh Arch or EndeavourOS install:
 
@@ -21,18 +21,33 @@ cd PuppyDOT
 ./setup install
 ```
 
-The installer already handles the Hyprland packages for Arch-based systems and then copies the rice/config layer on top.
+The installer brings in the Hyprland stack for Arch-based systems, then copies the rice and first-login assistant on top.
 
-## After first login
+## First Login
 
 - `Super + /` opens the cheatsheet
 - `Super + Enter` opens a terminal
-- `Super + .` opens the app launcher
+- `Super + .` opens the launcher
 - `Super + W` opens the default browser
+- `Super + N` opens Noctalia control center
 
-## Notes
+## Presets
 
-- This repo is tuned for Noctalia Shell, not the old Quickshell/illogical-impulse flow.
-- The first-login assistant can install the curated desktop bundle and guide through mirrors, browser choice, and GPU checks.
-- I keep the setup explicit and visible so it is easier to hand to someone new.
+The `Install Ari desktop` button installs a curated bundle:
 
+- Brave Origin
+- Steam
+- Discord
+- VLC
+- LibreOffice
+- GIMP
+- OBS Studio
+- Thunderbird
+- Signal
+- Prism Launcher
+- Flatpak support
+
+## Project Shape
+
+This repository was built from my own desktop setup and reshaped into a cleaner, beginner-friendly install.
+Upstream Hyprland-dotfiles influence is part of the history, but the current goal is different: a personal rice that is easy to install and easy to live with.
