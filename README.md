@@ -23,6 +23,14 @@ cd PuppyDOT
 
 The installer brings in the Hyprland stack for Arch-based systems, then copies the rice and first-login assistant on top.
 
+## How To Install
+
+1. Install Arch Linux or EndeavourOS.
+2. Open a terminal after the base system is ready.
+3. Clone this repo and run `./setup install`.
+4. Log into Hyprland for the first time.
+5. Use the setup assistant to finish the desktop or hit `Install Ari desktop` for the curated app preset.
+
 ## First Login
 
 - `Super + /` opens the cheatsheet
