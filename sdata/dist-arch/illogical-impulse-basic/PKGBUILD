@@ -14,6 +14,10 @@ depends=(
   wget
   ripgrep
   jq
+  yad
+  pciutils
+  inxi
+  reflector
   xdg-user-dirs
   # Used in install script
   rsync

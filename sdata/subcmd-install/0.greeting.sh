@@ -5,27 +5,32 @@
 
 #####################################################################################
 
-printf "${STY_CYAN}[$0]: Hi there! Before we start:${STY_RST}\n"
+printf "${STY_CYAN}${STY_BOLD}Haiii! I see you are installing my dotfiles. Enjoy!${STY_RST}\n"
 printf "\n"
-printf "${STY_PURPLE}${STY_BOLD}[NEW] illogical-impulse is now powered by Quickshell.${STY_RST}\n"
-printf "${STY_PURPLE}"
-printf '# NOTE: illogical-impulse on AGS is no longer supported.\n'
-printf '# If you were using the old version with AGS and would like to keep it, do not run this script.\n'
+printf "${STY_PURPLE}This installer prepares Hyprland, Noctalia, and the rest of the desktop rice.${STY_RST}\n"
+printf "${STY_PURPLE}After the first login, a friendly setup assistant will guide you through:${STY_RST}\n"
+printf "${STY_PURPLE}  - essential Hyprland shortcuts\n"
+printf "  - installing common apps\n"
+printf "  - Noctalia customization\n"
+printf "  - choosing a default browser\n"
+printf "  - package mirrors and system updates\n"
+printf "  - graphics driver guidance${STY_RST}\n"
 printf "\n"
 pause
-printf "${STY_CYAN}${STY_BOLD}Quick overview about what this script does:${STY_RST}\n"
+printf "${STY_CYAN}${STY_BOLD}What this installer does:${STY_RST}\n"
 printf "${STY_CYAN}"
-printf "  1. Install dependencies.\n"
+printf "  1. Install Hyprland and the desktop dependencies.\n"
 printf "  2. Setup permissions/services etc.\n"
-printf "  3. Copying config files.${STY_RST}\n"
+printf "  3. Copying config files and Noctalia polish.${STY_RST}\n"
 pause
-printf "${STY_CYAN}${STY_BOLD}Tips:${STY_RST}\n"
+printf "${STY_CYAN}${STY_BOLD}Before continuing:${STY_RST}\n"
 printf "${STY_CYAN}"
-printf "  a) It has been designed to be idempotent which means you can run it multiple times.\n"
-printf "  b) Use ${STY_INVERT} --help ${STY_RST}${STY_CYAN} for more options.${STY_RST}\n"
+printf "  a) The installer can be run again if a step is interrupted.\n"
+printf "  b) Existing configuration conflicts can be backed up.\n"
+printf "  c) Use ${STY_INVERT} --help ${STY_RST}${STY_CYAN} for advanced options.${STY_RST}\n"
 printf "${STY_YELLOW}${STY_BOLD}Note: ${STY_RST}"
 printf "${STY_YELLOW}"
-printf "It does not handle system-level/hardware stuff like Nvidia drivers. Please do it by yourself.\n"
+printf "Graphics drivers are hardware-specific. The first-login assistant detects the GPU and opens the correct guidance instead of installing a risky guess.\n"
 printf "${STY_RST}"
 printf "\n"
 pause
